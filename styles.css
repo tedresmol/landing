@@ -13,12 +13,14 @@ body {
     justify-content:  space-between;
     align-items: center;
     padding-left: 20%;
+    border-style: dotted;
     
     
 }
 .header {
     display: flex;
     background-color: burlywood;
+    border-style: groove;
 }
 .container img {
     width: 200px;
