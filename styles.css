@@ -13,10 +13,15 @@ body {
     justify-content:  space-between;
     align-items: center;
     padding-left: 20%;
-    flex-direction: column;
+    
     
 }
 .header {
     display: flex;
     background-color: burlywood;
+}
+.container img {
+    width: 200px;
+    height: auto;
+    padding: 30px;
 }
