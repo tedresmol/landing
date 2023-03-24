@@ -9,7 +9,7 @@ body {
 header {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     
@@ -25,6 +25,7 @@ ul {
 ul li a{
     padding: 0 20px;
     text-decoration: none;
+    color: white;
     
 }
 main {
@@ -56,5 +57,18 @@ h1 {
 
 }
 .content-right{
+    
+}
+.uppermid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30%;
+    
+}
+h2{
+    font-size: 36px;
+    font-weight: bold;
+    display: flex;
     
 }
