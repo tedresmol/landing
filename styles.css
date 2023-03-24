@@ -1,29 +1,8 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
     font-family: Roboto, sans-serif;
-
-}
-.parent {
-    display: flex;
-
-
-}
-.container {
-    display: flex;
-    background-color: aqua;
-    justify-content:  space-between;
-    align-items: center;
-    padding-left: 20%;
-    border-style: dotted;
-    
-    
-}
-.header {
-    display: flex;
-    background-color: burlywood;
-    border-style: groove;
-}
-.container img {
-    width: 200px;
-    height: auto;
-    padding: 30px;
 }
