@@ -3,6 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
-.body {
+body {
     font-family: Roboto, sans-serif;
+}
+header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    
+}
+
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    
 }
