@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 body {
     font-family: Roboto, sans-serif;
@@ -9,8 +9,10 @@ body {
 header {
     display: flex;
     background-color: #1f2937;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+
+    
     
 }
 ul {
@@ -23,5 +25,36 @@ ul {
 ul li a{
     padding: 0 20px;
     text-decoration: none;
+    
+}
+main {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    color: #F9FAF8;
+    
+}
+.signup-button {
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 25px;
+}
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+}
+.hero-img{
+    max-width: 650px;
+    height: auto;
+    
+}
+.content-left{
+    width: 30%;
+
+}
+.content-right{
     
 }
